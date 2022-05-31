@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((bconvert.sh -i 10 -o 16 $DECIMAL))
+printf "%d %x\n" $((16#$DECIMAL))
